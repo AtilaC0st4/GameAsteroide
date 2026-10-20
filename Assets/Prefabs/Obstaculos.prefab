@@ -110,7 +110,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDamping: 0
   m_AngularDamping: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -187,3 +187,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b369d54c8d592f441a48df7238602b09, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Obstaculo
+  minSpeed: 50
+  maxSpeed: 400
+  minScale: 1
+  maxScale: 3
+  rb: {fileID: 0}
